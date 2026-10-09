@@ -1,0 +1,4 @@
+event,market,selection,odds,commission,source,available
+North FC vs South FC,match_winner_90m,North FC,2.20,0,sample-book-a,250
+North FC vs South FC,match_winner_90m,Draw,3.60,0,sample-book-b,100
+North FC vs South FC,match_winner_90m,South FC,4.20,0.02,sample-exchange,150
