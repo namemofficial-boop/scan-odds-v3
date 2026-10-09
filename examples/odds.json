@@ -1,0 +1,7 @@
+{
+  "odds": [
+    {"event":"North FC vs South FC","market":"match_winner_90m","selection":"North FC","odds":2.20,"commission":0.00,"source":"sample-book-a","available":250},
+    {"event":"North FC vs South FC","market":"match_winner_90m","selection":"Draw","odds":3.60,"commission":0.00,"source":"sample-book-b","available":100},
+    {"event":"North FC vs South FC","market":"match_winner_90m","selection":"South FC","odds":4.20,"commission":0.02,"source":"sample-exchange","available":150}
+  ]
+}
