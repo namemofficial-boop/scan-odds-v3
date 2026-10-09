@@ -55,3 +55,12 @@ def test_back_lay_fixed_stake_reports_both_sides():
     assert math.isfinite(result.pnl_if_selection_wins)
     assert math.isfinite(result.pnl_if_selection_loses)
     assert result.pnl_if_selection_wins != pytest.approx(result.pnl_if_selection_loses)
+
+def test_surebet_rejects_insufficient_available_stake():
+    result = calculate_surebet([
+        OddsRow("A vs B", "1x2", "A", 3.2, 0, "test", 10, None),
+        OddsRow("A vs B", "1x2", "Draw", 3.5, 0, "test", 100, None),
+        OddsRow("A vs B", "1x2", "B", 3.7, 0, "test", 100, None),
+    ], 100)
+    assert not result.liquidity_feasible
+    assert not result.is_arbitrage
