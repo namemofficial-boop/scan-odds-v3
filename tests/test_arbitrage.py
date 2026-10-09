@@ -47,7 +47,7 @@ def test_back_lay_balances_after_commission():
     assert result.lay_stake > 0
     assert result.lay_liability > 0
     assert result.pnl_if_selection_wins == pytest.approx(result.pnl_if_selection_loses)
-    assert result.balanced_pnl < 0  # a lay price below back price is not profitable here
+    assert result.balanced_pnl > 0  # back odds above lay odds can yield a positive hedge after commission
 
 
 def test_back_lay_fixed_stake_reports_both_sides():
