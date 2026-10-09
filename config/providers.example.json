@@ -1,0 +1,18 @@
+{
+  "providers": [
+    {
+      "name": "Overtime V2",
+      "status": "requires_approved_api_key",
+      "docs": "https://docs.overtimemarkets.xyz/overtime-v2-integration",
+      "secrets_env": ["OVERTIME_API_KEY"],
+      "notes": "Do not assume public access to protected market endpoints."
+    },
+    {
+      "name": "Betfair Exchange",
+      "status": "requires_app_key_and_session",
+      "docs": "https://betfair-developer-docs.atlassian.net/wiki/spaces/1smk3cen4v3lu3yomq5qye0ni/pages/2687396/Exchange+Stream+API",
+      "secrets_env": ["BETFAIR_APP_KEY", "BETFAIR_SESSION_TOKEN"],
+      "notes": "Live streaming requires appropriate access; never commit tokens."
+    }
+  ]
+}
