@@ -3,7 +3,7 @@
     {
       "name": "Overtime V2",
       "status": "requires_approved_api_key",
-      "docs": "https://docs.overtimemarkets.xyz/overtime-v2-integration",
+      "docs": "https://docs.overtime.io/overtime-v2-integration",
       "secrets_env": ["OVERTIME_API_KEY"],
       "notes": "Do not assume public access to protected market endpoints."
     },
