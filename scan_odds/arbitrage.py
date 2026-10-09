@@ -28,6 +28,7 @@ class SurebetResult:
     theoretical_roi: float
     guaranteed_profit: float
     is_arbitrage: bool
+    liquidity_feasible: bool
     legs: list[SurebetLeg]
 
     def to_dict(self) -> dict:
@@ -39,6 +40,7 @@ class SurebetResult:
             "theoretical_roi": round(self.theoretical_roi, 8),
             "guaranteed_profit": round(self.guaranteed_profit, 6),
             "is_arbitrage": self.is_arbitrage,
+            "liquidity_feasible": self.liquidity_feasible,
             "legs": [asdict(leg) for leg in self.legs],
         }
 
@@ -97,6 +99,10 @@ def calculate_surebet(rows: Iterable[OddsRow], bankroll: float) -> SurebetResult
         for i, r in enumerate(legs_in)
     ]
     event, market = next(iter(event_markets))
+    liquidity_feasible = all(
+        r.available is None or stakes[i] <= r.available + 1e-9
+        for i, r in enumerate(legs_in)
+    )
     return SurebetResult(
         event=event,
         market=market,
@@ -104,7 +110,8 @@ def calculate_surebet(rows: Iterable[OddsRow], bankroll: float) -> SurebetResult
         implied_probability_sum=inv_sum,
         theoretical_roi=roi,
         guaranteed_profit=guaranteed_profit,
-        is_arbitrage=inv_sum < 1.0 - 1e-12,
+        is_arbitrage=(inv_sum < 1.0 - 1e-12) and liquidity_feasible,
+        liquidity_feasible=liquidity_feasible,
         legs=legs,
     )
 
