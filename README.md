@@ -4,7 +4,7 @@ A practical odds-arbitrage calculation core with **real Surebet and Back/Lay bal
 
 ## What works now
 - Surebet calculation for outcomes of the same event/market, with per-outcome decimal odds and commission rates.
-- Stake allocation for a specified total bankroll, equalized net payout, estimated profit and ROI after configured commission.
+- Stake allocation for a specified total bankroll, equalized net payout, estimated profit and ROI after configured commission; optional available-stake values are checked against the proposed stake sizes.
 - Back/Lay hedge sizing, lay liability, commission-aware P/L for both selection outcomes, and balanced hedge sizing.
 - CLI scans normalized JSON/CSV odds snapshots and emits machine-readable JSON.
 - Input validation rejects invalid odds, invalid commission, and incompatible event/market keys when supplied.
@@ -53,5 +53,5 @@ All outcomes in one Surebet group must be mutually exclusive and collectively co
 ## Important assumptions
 - Odds are decimal.
 - Commission is a fraction: 0.02 means 2%, charged on winning profit.
-- Available stake/liquidity is an optional cap; real execution can still fail due to movement, limits, latency, or rejected orders.
+- Available stake/liquidity is an optional feasibility check; a group is not flagged as executable Surebet when a proposed leg exceeds its stated available amount. Real execution can still fail due to movement, limits, latency, or rejected orders.
 - The calculator estimates opportunity only. It does not place bets or guarantee profit.
