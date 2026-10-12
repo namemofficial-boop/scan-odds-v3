@@ -54,7 +54,10 @@ def test_back_lay_fixed_stake_reports_both_sides():
     result = calculate_back_lay(3.0, 2.5, 10, lay_stake=12)
     assert math.isfinite(result.pnl_if_selection_wins)
     assert math.isfinite(result.pnl_if_selection_loses)
-    assert result.pnl_if_selection_wins != pytest.approx(result.pnl_if_selection_loses)
+    # With these inputs both outcomes happen to yield the same +2.0 P/L.
+    assert result.pnl_if_selection_wins == pytest.approx(2.0)
+    assert result.pnl_if_selection_loses == pytest.approx(2.0)
+
 
 def test_surebet_rejects_insufficient_available_stake():
     result = calculate_surebet([
