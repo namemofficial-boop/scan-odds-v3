@@ -55,3 +55,17 @@ All outcomes in one Surebet group must be mutually exclusive and collectively co
 - Commission is a fraction: 0.02 means 2%, charged on winning profit.
 - Available stake/liquidity is an optional feasibility check; a group is not flagged as executable Surebet when a proposed leg exceeds its stated available amount. Real execution can still fail due to movement, limits, latency, or rejected orders.
 - The calculator estimates opportunity only. It does not place bets or guarantee profit.
+
+
+## Live read-only scanning
+
+The first provider layer is available in `scan_odds.providers` and `scan_odds.live_scan`.
+
+```bash
+python -m scan_odds.live_scan --providers betfair --bankroll 100
+python -m scan_odds.live_scan --providers betfair,overtime --bankroll 100 --interval 15
+```
+
+Set `BETFAIR_APP_KEY` and `BETFAIR_SESSION_TOKEN` locally for Betfair. Overtime protected market endpoints require an approved `OVERTIME_API_KEY`. Results are saved to `reports/latest-live-scan.json`. This mode is read-only and never places bets.
+
+See [LIVE_SCAN.md](LIVE_SCAN.md) for access requirements and limitations. Web3 sites still require individual authorized connectors; do not interpret sample data or an empty provider response as a successful live scan.
