@@ -1,0 +1,456 @@
+{
+  "description": "Registry of requested Web3 gambling sites. Blank URLs/selectors are intentional until public odds pages and permitted access are verified.",
+  "providers": {
+    "casinopunkz.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "betfury.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "betplay.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "bc.game": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "vave.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "coinpoker.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "coincasino.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "instantcasino.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "solcasino.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "dexsport.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "just.bet": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "earnbet.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "bazedbet.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "iwildcasino.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "betpanda.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "funtoken.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "overtime.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "tg.casino": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "playbet.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "goldenpanda.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "casinobit.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "7bitcasino.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "metaspins.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "flush.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "ybets.net": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "gamegram.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "immerion.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "fortunejack.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "winz.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "rakebit.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "rollbit.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "crypto-games.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "rocketpot.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "justbit.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "thunderpick.io": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "bag.win": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "luckyblock.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "wsmcasino.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "metawin.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "moneytree.games": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    },
+    "bitstarz.com": {
+      "public_odds_url": "",
+      "selectors": {
+        "event": "",
+        "market": "",
+        "selection": "",
+        "odds": ""
+      },
+      "status": "not_configured",
+      "note": "Add a verified public odds URL and CSS selectors only after confirming permitted access; do not add credentials."
+    }
+  }
+}
