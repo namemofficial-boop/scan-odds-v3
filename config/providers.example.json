@@ -1,18 +1,26 @@
 {
   "providers": [
     {
+      "name": "Betfair Exchange",
+      "adapter": "scan_odds.providers.BetfairProvider",
+      "status": "read_only_api",
+      "docs": "https://support.developer.betfair.com/hc/en-us/articles/115003864651-How-do-I-get-started",
+      "secrets_env": ["BETFAIR_APP_KEY", "BETFAIR_SESSION_TOKEN"],
+      "markets": ["MATCH_ODDS"],
+      "notes": "Exchange JSON-RPC. Delayed key may provide delayed quotes. No bet placement."
+    },
+    {
       "name": "Overtime V2",
+      "adapter": "scan_odds.providers.OvertimeProvider",
       "status": "requires_approved_api_key",
       "docs": "https://docs.overtime.io/overtime-v2-integration",
       "secrets_env": ["OVERTIME_API_KEY"],
-      "notes": "Do not assume public access to protected market endpoints."
+      "notes": "Protected market endpoints require approved access; unknown schemas are not guessed."
     },
     {
-      "name": "Betfair Exchange",
-      "status": "requires_app_key_and_session",
-      "docs": "https://betfair-developer-docs.atlassian.net/wiki/spaces/1smk3cen4v3lu3yomq5qye0ni/pages/2687396/Exchange+Stream+API",
-      "secrets_env": ["BETFAIR_APP_KEY", "BETFAIR_SESSION_TOKEN"],
-      "notes": "Live streaming requires appropriate access; never commit tokens."
+      "name": "Web3 gambling sites",
+      "status": "site_specific_connectors_not_yet_verified",
+      "notes": "Each site requires an allowed API/feed or a site-specific public-page adapter."
     }
   ]
 }
